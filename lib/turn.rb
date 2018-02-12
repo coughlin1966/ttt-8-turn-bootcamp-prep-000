@@ -33,7 +33,7 @@ def turn(board)
   if !valid_move?(board, index)
     turn(board)
   else
-    move(array, index)
+    move(board, index)
   end
 display_board(board)
 
