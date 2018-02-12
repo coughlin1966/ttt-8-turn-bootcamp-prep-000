@@ -13,3 +13,4 @@ def next_player
     turn(board)
     counter += 1
   end
+end
